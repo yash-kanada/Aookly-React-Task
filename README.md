@@ -31,12 +31,12 @@ This is a **React** project built for a company assignment. The application impl
 
 ## 🛠 Technologies Used
 
-1. React.js
-2. React Router DOM
-3. React Hook Form
-4. Bootstrap 5
-5. React Toastify
-6. LocalStorage
+- React.js
+- React Router DOM
+- React Hook Form
+- Bootstrap 5
+- React Toastify
+- LocalStorage
 
 ---
 
