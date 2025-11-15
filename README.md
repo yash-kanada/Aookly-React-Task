@@ -12,7 +12,7 @@ This is a **React** project built for a company assignment. The application impl
     ```
 2. **Navigate to the project folder:**
     ```bash
-    cd Chaintech-Network-React-Practical
+    cd Aookly-React-Task
     ```
 3. **Install dependencies:**
     ```bash
