@@ -1,16 +1,84 @@
-# React + Vite
+# Aookly React Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React** project built for a company assignment. The application implements basic user authentication and an employee management dashboard including pages for creating employees, filtering, importing, and transferring employees.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Installation & Setup
 
-## React Compiler
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yash-kanada/Aookly-React-Task.git
+    ```
+2. **Navigate to the project folder:**
+    ```bash
+    cd Chaintech-Network-React-Practical
+    ```
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the app:**
+    ```bash
+    npm run dev
+    ```
+5. **Open in browser:**
+    ```bash
+    http://localhost:6033/
+    ```    
+    
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Technologies Used
 
-## Expanding the ESLint configuration
+1. React.js
+2. React Router DOM
+3. React Hook Form
+4. Bootstrap 5
+5. React Toastify
+6. LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+Here’s an overview of the major folders and files in this repo:
+
+```
+src
+ ├── assets
+ │     └── images (logo, icons, etc.)
+ ├── components
+ │     ├── Login.jsx
+ │     ├── SignUp.jsx
+ │     ├── Home.jsx
+ │     ├── NewEmployee.jsx
+ │     ├── EmployeeFilter.jsx
+ │     ├── ImportEmployee.jsx
+ │     └── EmployeeTransfer.jsx
+ ├── App.js
+ ├── App.css
+ └── index.js
+ ```
+
+---
+
+## 🚀 Features
+
+- User **Sign Up** and **Login** with validation  
+- Local storage-based user persistence  
+- Employee CRUD-style UI (without backend):  
+  - Add new employee  
+  - Filter / search employees  
+  - Import employees via Excel  
+  - Transfer employee between zones  
+- Responsive design using **Bootstrap 5**
+
+---
+
+## 👨‍💻 Developer
+
+**Yash Kanada**  
+React.js Developer  
+📧 [Email me](mailto:yashkanada2004@gmail.com)  
+🌐 [GitHub Profile](https://github.com/yash-kanada)
